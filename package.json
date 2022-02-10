@@ -1,0 +1,22 @@
+{
+  "name": "get-itu-transcript",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Web server for accessing ITU transcript as pdf easily. Also a docker file available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "axios-cookiejar-support": "^2.0.3",
+    "express": "^4.17.2",
+    "html-pdf": "^3.0.1",
+    "jsdom": "^19.0.0",
+    "node-html-parser": "^5.2.0",
+    "opn": "^6.0.0",
+    "tough-cookie": "^4.0.0"
+  }
+}
